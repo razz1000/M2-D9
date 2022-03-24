@@ -6,6 +6,9 @@ let removeRowViaDeleteButton = (event) => {
     event.path[2].remove();
     alert("Your track has been removed")
 }
+/* Could use this one as well:  */
+/* e.target.closest("tr").remove() */
+
 
 
 
@@ -32,3 +35,4 @@ let addTrackFunction = (event) => {
   console.log(event.target)
     
 }
+
